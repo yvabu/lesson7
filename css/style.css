@@ -1,0 +1,63 @@
+.saba {
+	background-image: url("../images/zgva.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 800px;
+	position: relative;
+}
+.navi {
+	position: absolute;
+	width: 400px;
+	height: 500px;
+    top: 350px;
+    left: 600px;
+    width: 150px;
+    height: 150px;
+    animation: navi 30s infinite;
+}
+@keyframes navi {
+
+0% {left: 0px}
+100%{left: 1800px}
+}
+.delfin {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	top: 600px;
+	left: 300px;
+	animation: delfin 30s infinite;
+	transform: rotate(357deg);
+	
+}
+@keyframes delfin {
+	0% {left: 0px}
+   100%{left: 1800px}
+   
+}
+.bird {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 8px;
+	right: 50px;
+	transform: rotate(333deg);
+	animation: bird 30s infinite;
+}
+@keyframes bird {
+	 0% {right: 100px}
+  100% {right: 1800px}
+}
+.bird2 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 8px;
+	right: 50px;
+	transform: rotate(5deg);
+	animation: bird 30s infinite;
+}
+@keyframes bird {
+	 0% {right: 100px}
+  100% {right: 1800px}
+}  
